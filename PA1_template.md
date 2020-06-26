@@ -67,7 +67,7 @@ breaks <- seq(0, 22000, 1000)
 hist(df_tot$tot_steps, breaks = breaks, main = ttl, xlab = x_lab, ylab = y_lab)
 ```
 
-![](PA1_template_files/figure-html/unnamed-chunk-5-1.png)<!-- -->
+![](figure/unnamed-chunk-5-1.png)<!-- -->
 
 #### Calculate the mean and median total number of steps taken per day
 
@@ -111,7 +111,7 @@ y_lab <- "Average number of steps"
 plot(df_5min$interval, df_5min$avg_steps, type = "l", main = ttl, xlab = x_lab, ylab = y_lab)
 ```
 
-![](PA1_template_files/figure-html/unnamed-chunk-8-1.png)<!-- -->
+![](figure/unnamed-chunk-8-1.png)<!-- -->
 
 #### Calculate the 5-minute interval containing the maximum average number of steps
 
@@ -175,7 +175,7 @@ breaks <- seq(0, 22000, 1000)
 hist(df_mod_tot$tot_steps, breaks = breaks, main = ttl, xlab = x_lab, ylab = y_lab)
 ```
 
-![](PA1_template_files/figure-html/unnamed-chunk-13-1.png)<!-- -->
+![](figure/unnamed-chunk-13-1.png)<!-- -->
 
 #### Calculate the mean and median total number of steps taken per day for modified dataset
 
@@ -245,7 +245,7 @@ y_lab <- "Average number of steps"
 xyplot(avg_steps ~ interval | wd, df_mod_5min, type = "l", main = ttl, xlab = x_lab, ylab = y_lab)
 ```
 
-![](PA1_template_files/figure-html/unnamed-chunk-18-1.png)<!-- -->
+![](figure/unnamed-chunk-18-1.png)<!-- -->
 
 #### Differences in activity patterns between weekdays and weekends
 
